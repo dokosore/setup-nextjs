@@ -6,7 +6,7 @@ const IndexPage = (): JSX.Element => {
   return (
     <Layout>
       <Center w="full" h="full" color="black.text.dark" fontWeight="bold">
-        <Text>開発頑張ろう！！</Text>
+        <Text fontSize="xl">開発頑張ろう！！</Text>
       </Center>
     </Layout>
   );
