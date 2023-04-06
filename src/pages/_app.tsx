@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
     <ChakraProvider theme={theme}>
       <Provider>
         <Head>
-          <title>goranavi</title>
+          <title>サービス名</title>
         </Head>
         <Component key={router.asPath} {...pageProps} />
       </Provider>
